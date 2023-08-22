@@ -1,0 +1,29 @@
+.body {
+    display: flex;
+}
+.header {
+    text-align: center;
+}
+.first_line,
+.second_line,
+.third_line {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 30px;
+}
+.weight,
+.height {
+    margin-bottom: 15px;
+}
+
+.button {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+}
