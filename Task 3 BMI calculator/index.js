@@ -14,6 +14,7 @@ const finalBMI = BMI.toFixed(2);
 result.innerHTML = finalBMI;
 const p = document.createElement('p');
 
+
 if (result.innerHTML < 18.5) {
     p.textContent = "Недостаточный вес";
 } else if(result.innerHTML >= 18.5 && result.innerHTML < 24.9) {
@@ -21,7 +22,8 @@ if (result.innerHTML < 18.5) {
 } else if(result.innerHTML >=24.9 && result.innerHTML < 29.9) {
     p.textContent = "Избыточный вес";
 }
-result.appendChild(p);
+p.classList.add('text_result');
+result.append(p);
 }
 
 button.addEventListener('click', calculateBMI);
