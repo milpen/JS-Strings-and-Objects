@@ -14,7 +14,6 @@ const finalBMI = BMI.toFixed(2);
 result.innerHTML = finalBMI;
 const p = document.createElement('p');
 
-
 if (result.innerHTML < 18.5) {
     p.textContent = "Недостаточный вес";
 } else if(result.innerHTML >= 18.5 && result.innerHTML < 24.9) {
